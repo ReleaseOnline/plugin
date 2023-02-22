@@ -14,6 +14,7 @@ public final class ReleaseOnlinePlugin extends JavaPlugin {
     public void onEnable() {
         LogInfo("Enabling ReleaseOnline");
 
+        this.getCommand("releaseonline").setExecutor(new ReleaseOnlineCommand());
         this.getCommand("rohelp").setExecutor(new HelpCommand());
         this.getCommand("rules").setExecutor(new RulesCommand());
 

@@ -6,6 +6,9 @@ description: Basic commands from ReleaseOnline
 website: https://www.cm3k.xyz/
 
 commands:
+  releaseonline:
+    description: Displays current plugin version.
+    #usage: /<command>
   rules:
     description: Displays the server rules.
     #usage: /<command>
