@@ -11,5 +11,5 @@ repositories {
 
 dependencies {
     // Bukkit API - After compiling there was 2 files this one, and one just named "bukkit-1.0.1-R1.jar", this one seems to work fine though.
-    implementation(files("lib/original-bukkit-1.0.1-R1.jar"))
+    implementation(files("lib/bukkit-1.0.1-R1.jar"))
 }
