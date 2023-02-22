@@ -9,7 +9,7 @@ import java.util.TimerTask;
 
 public class SaveTimer {
     // big ups stackoverflow for like all this code
-    long delay = 60 * 1000; // delay in milliseconds
+    long delay = 120 * 1000; // delay in milliseconds
     LoopTask task = new LoopTask();
     Timer timer = new Timer("SaveTimer");
 
