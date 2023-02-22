@@ -1,4 +1,4 @@
-package xyz.cm3k.ReleaseOnline;
+package xyz.cm3k.ReleaseOnline.plugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -38,7 +38,6 @@ public class NotificationTimer {
                 Bukkit.broadcastMessage("ReleaseOnline has a " + ChatColor.BLUE + "website" + ChatColor.WHITE + "!");
                 Bukkit.broadcastMessage("https://releaseonline.cm3k.xyz/");
                 notifID = 0;
-                return;
             }
         }
     }

@@ -1,4 +1,4 @@
-package xyz.cm3k.ReleaseOnline;
+package xyz.cm3k.ReleaseOnline.plugin;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
