@@ -22,7 +22,6 @@ public class SaveTimer {
 
     private static class LoopTask extends TimerTask {
         public void run() {
-            Bukkit.broadcastMessage("saving");
             // Sends two messages to ops chats, v annoying
             // Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "save-all");
             for (World world : Bukkit.getWorlds()) {
