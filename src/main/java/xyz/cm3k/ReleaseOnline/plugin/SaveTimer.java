@@ -1,7 +1,7 @@
 package xyz.cm3k.ReleaseOnline.plugin;
 
 import org.bukkit.Bukkit;
-import org.bukkit.command.Command;
+import org.bukkit.World;
 
 import java.util.Date;
 import java.util.Timer;
@@ -22,12 +22,12 @@ public class SaveTimer {
 
     private static class LoopTask extends TimerTask {
         public void run() {
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {throw new RuntimeException(e);}
+            Bukkit.broadcastMessage("saving");
             // Sends two messages to ops chats, v annoying
             // Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "save-all");
-            Command.broadcastCommandMessage(Bukkit.getConsoleSender(), "save-all");
+            for (World world : Bukkit.getWorlds()) {
+                world.save();
+            }
         }
     }
 }
