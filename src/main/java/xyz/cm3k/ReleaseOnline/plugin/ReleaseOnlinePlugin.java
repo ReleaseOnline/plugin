@@ -1,9 +1,9 @@
-package xyz.cm3k.ReleaseOnline;
+package xyz.cm3k.ReleaseOnline.plugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class ReleaseOnline extends JavaPlugin {
+public final class ReleaseOnlinePlugin extends JavaPlugin {
     public static String version = "0.1";
 
     public static void LogInfo(Object message) {

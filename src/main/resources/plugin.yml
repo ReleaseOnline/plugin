@@ -1,7 +1,7 @@
 name: ReleaseOnline
 version: 1.0
 author: CashMan3000
-main: xyz.cm3k.ReleaseOnline.ReleaseOnline
+main: xyz.cm3k.ReleaseOnline.plugin.ReleaseOnlinePlugin
 description: Basic commands from ReleaseOnline
 website: https://www.cm3k.xyz/
 
